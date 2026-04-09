@@ -275,7 +275,7 @@ function TabItem({ tab, isActive, isDragOver, onClick, onClose, onContextMenu, o
       onDrop={onDrop}
       onDragEnd={onDragEnd}
       className={`
-        flex-shrink-0 flex items-center gap-1.5 px-3 cursor-pointer group transition-colors relative
+        flex-shrink-0 flex items-center gap-1.5 px-3 cursor-pointer group transition-colors relative border-r border-r-[var(--color-border)]/30
         ${isActive
           ? 'h-[37px] bg-[var(--color-surface)] border-t-2 border-t-[var(--color-brand)]'
           : 'h-[37px] bg-transparent hover:bg-[var(--color-surface-hover)]'
